@@ -2,19 +2,17 @@ public class Wertebereich {
 
     public static void main(String[] args)
     {
-        int ersterTest = 1;
-        Long zweiterTest = 502220L;
-        float dritterTest = 3.002221F;
-        int vierterTest = 5224;
+        int testWert = 6255;
 
 
 
 
 
-        System.out.println("Der erste Wert passt in Long? : "+ (ersterTest >= Long.MIN_VALUE && ersterTest <= Long.MAX_VALUE));
-        System.out.println("Der zweite Wert passt in short? : "+ (zweiterTest >= Short.MIN_VALUE && zweiterTest <= Short.MAX_VALUE));
-        System.out.println("Der dritte Wert passt in double? : "+ (dritterTest >= Double.MIN_VALUE && dritterTest <= Double.MAX_VALUE));
-        System.out.println("Der vierte Wert passt in byte? : "+ (vierterTest >= Byte.MIN_VALUE && vierterTest <= Byte.MAX_VALUE));
+
+        System.out.println("Der erste Wert passt in Long? : "+ (testWert >= Long.MIN_VALUE && testWert <= Long.MAX_VALUE));
+        System.out.println("Der zweite Wert passt in int? : "+ (testWert >= Integer.MIN_VALUE && testWert <= Integer.MAX_VALUE));
+        System.out.println("Der dritte Wert passt in short? : "+ (testWert >= Short.MIN_VALUE && testWert <= Short.MAX_VALUE));
+        System.out.println("Der vierte Wert passt in byte? : "+ (testWert >= Byte.MIN_VALUE && testWert <= Byte.MAX_VALUE));
 
 
         Typetester typetester = new Typetester();
