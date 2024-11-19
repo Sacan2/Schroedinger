@@ -10,7 +10,7 @@ public class Wertebereich {
 
 
 
-        System.out.println(Long.parseLong(String.valueOf(ersterTest)) + " gut");
+        System.out.println("Der erste Wert passt in Long? : "+ (ersterTest >= Long.MIN_VALUE && ersterTest <= Long.MAX_VALUE));
         System.out.println(ersterTest);
 
         Typetester typetester = new Typetester();
