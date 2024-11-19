@@ -3,7 +3,7 @@ public class Wertebereich {
     public static void main(String[] args)
     {
         int ersterTest = 1;
-        boolean zweiterTest = true;
+        Long zweiterTest = 502220L;
         float dritterTest = 3.001F;
 
 
@@ -11,7 +11,7 @@ public class Wertebereich {
 
 
         System.out.println("Der erste Wert passt in Long? : "+ (ersterTest >= Long.MIN_VALUE && ersterTest <= Long.MAX_VALUE));
-        System.out.println(ersterTest);
+        System.out.println("Der zweite Wert passt in short? : "+ (zweiterTest >= Short.MIN_VALUE && zweiterTest <= Short.MAX_VALUE));
 
         Typetester typetester = new Typetester();
         typetester.printType(ersterTest);
