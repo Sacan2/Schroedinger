@@ -7,7 +7,7 @@ public class Sieben {
             System.out.println(zahl + " ist Teilbar durch 7");
         }
         else{
-            System.out.println("Ist nicht Teilbar durch 7");
+            System.out.println(zahl + " ist nicht Teilbar durch 7");
         }
 
     }
