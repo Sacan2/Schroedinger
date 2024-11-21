@@ -3,12 +3,12 @@ public class Sieben {
 
         int zahl = 26;
 
-        if (zahl%7 == 0 || zahl%13 == 0){
+        if (zahl%7 == 0 || zahl%13 == 0)
             System.out.println("Glück gehabt");
-        }
-        else{
+
+        else
             System.out.println("Pech gehabt");
-        }
+
 
     }
 }
