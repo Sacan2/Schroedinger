@@ -1,25 +1,28 @@
 public class Noten {
     public static void main(String[] args) {
         int note = 4;
+        String notealsString = "Gut";
 
-        switch(note){
-            case 1:
-                System.out.println("Sehr gut");
+
+
+        switch(notealsString){
+            case "Sehr gut":
+                System.out.println(1);
                 break;
-            case 2:
-                System.out.println("Gut");
+            case "Gut":
+                System.out.println(2);
                 break;
-            case 3:
-                System.out.println("Befriedigend");
+            case "Befriedigend":
+                System.out.println(3);
                 break;
-            case 4:
-                System.out.println("Ausreichend");
+            case "Ausreichend":
+                System.out.println(4);
                 break;
-            case 5:
-                System.out.println("Mangelhaft");
+            case "Mangelhaft":
+                System.out.println(5);
                 break;
-            case 6:
-                System.out.println("Ungenügend");
+            case "Ungenügend":
+                System.out.println(6);
                 break;
             default:
                 System.out.println("Mach eine Zahl von 1 bis 6 IDIOT!!!");
