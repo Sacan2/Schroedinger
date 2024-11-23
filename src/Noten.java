@@ -1,27 +1,27 @@
 public class Noten {
     public static void main(String[] args) {
         int note = 4;
-        String notealsString = "Gut";
+        String notealsString = "GuT";
 
 
 
-        switch(notealsString){
-            case "Sehr gut":
+        switch(notealsString.toLowerCase()){
+            case "sehr gut":
                 System.out.println(1);
                 break;
-            case "Gut":
+            case "gut":
                 System.out.println(2);
                 break;
-            case "Befriedigend":
+            case "befriedigend":
                 System.out.println(3);
                 break;
-            case "Ausreichend":
+            case "ausreichend":
                 System.out.println(4);
                 break;
-            case "Mangelhaft":
+            case "mangelhaft":
                 System.out.println(5);
                 break;
-            case "Ungenügend":
+            case "ungenügend":
                 System.out.println(6);
                 break;
             default:
