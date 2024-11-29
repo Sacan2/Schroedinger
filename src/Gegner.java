@@ -13,7 +13,7 @@ public class Gegner {
                     System.out.println("Du hast den Gegner verfehlt!");
                     gameLoop = false;
                     break;
-                case 1, 2, 3:
+                case 3:
                     System.out.println("Du hast den Gegner Schwach getroffen!");
                     gameLoop = false;
                     break;
